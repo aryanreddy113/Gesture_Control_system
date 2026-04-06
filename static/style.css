@@ -1,0 +1,96 @@
+/* Fix overflow issue */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0a1f44;   /* 🌌 Dark Blue Background */
+    margin: 0;
+    color: white;          /* default text color */
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+/* Tagline */
+.tagline {
+    text-align: center;
+    font-style: italic;
+    color: #cbd5ff;
+    margin-bottom: 20px;
+}
+
+/* 🔴 Problem (Light Blue Box) */
+.problem {
+    width: 78%;
+    margin-left: 0;
+    margin-top: 40px;
+    padding: 25px;
+    border: 3px solid #1a8fcd;
+    border-radius: 15px;
+    background: #5d89b2;   /* 💡 Light Blue */
+    color: black;          /* readable text */
+    text-align: left;
+}
+
+/* 🟢 Solution (Light Blue Box) */
+.solution {
+    width: 78%;
+    margin-left: 20%;
+    margin-top: 60px;
+    padding: 25px;
+    border: 3px solid #1a8fcd;
+    border-radius: 15px;
+    background: #5d89b2;   /* 💡 Light Blue */
+    color: black;
+    text-align: left;
+}
+
+/* 🔵 Gestures (No Box, clean text) */
+.gestures {
+    width: 78%;
+    margin-left: 0;
+    margin-top: 40px;
+    padding: 25px;
+    border: none;
+    background: transparent;
+    text-align: left;
+}
+
+/* Headings */
+.problem h2 {
+    color: #003366;
+}
+
+.solution h2 {
+    color: #003366;
+}
+
+.gestures h2 {
+    color: #66b3ff;
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Text */
+.gestures p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #e6f0ff;
+}
+
+/* Bottom center text */
+.bottom-text {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: #ffffff;
+}

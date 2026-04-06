@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gesture Control System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h1>Gesture Control Virtual System</h1>
+
+    <!-- ✨ Tagline -->
+    <p class="tagline">Transforming Human Gestures into Digital Commands</p>
+
+    <!-- 🔴 Problem Statement -->
+<section class="problem">
+    <h2>Problem Statement</h2>
+    <p>
+      Traditional input devices like mice and keyboards, while effective, present limitations in specific modern scenarios:<br><br>
+
+      <b>Hygiene & Health:</b> In public kiosks or medical environments, physical contact with surfaces can spread pathogens.<br><br>
+
+      <b>Workflow Efficiency:</b> In creative or presentation-heavy roles, switching between physical tools and screen interaction can break "flow."<br><br>
+
+      <b>Hardware Dependency:</b> Physical peripherals are prone to mechanical wear and require specific surfaces to operate effectively.
+
+        
+    </p>
+</section>
+    <!-- 🟢 Proposed Solution (Center) -->
+<section class="solution">
+    <h2>Proposed Solution</h2>
+    <p>
+        Our project introduces a <b>Vision-Based Gesture Control System</b> that replaces the physical mouse with intuitive hand movements. 
+        By leveraging Computer Vision and MediaPipe's hand-tracking capabilities, the system maps real-time coordinates to system-level mouse events.
+        <br><br>
+
+        <b>Core Functionalities:</b><br><br>
+
+        <b>Cursor Movement:</b> Smooth tracking of the index finger (or hand centroid) to control the XY coordinates of the pointer.<br><br>
+
+        <b>Clicking Mechanism:</b> Detection of a specific gesture like hand pinching is included for selection.<br><br>
+
+        <b>Vertical Scrolling:</b> Using specific hand gestures to simulate the scroll wheel for navigating long documents or webpages.
+    </p>
+</section>
+<!-- 🔵 Gestures Section (Left Side Fixed) -->
+<section class="gestures">
+    <h2>Gestures Used</h2>
+
+    <p>☝️ <b>Cursor Movement:</b> Index Finger</p>
+
+    <p>⬆️ <b>Scroll Up:</b> Thumb + Little Finger</p>
+
+    <p>⬇️ <b>Scroll Down:</b> Thumb Finger</p>
+
+    <p>🤏 <b>Click (Pinching):</b> Thumb + Index Finger</p>
+
+    <p>🤟 <b>Screenshot:</b> Thumb index finger + little finger</p>
+</section>
+
+</body>
+</html>
